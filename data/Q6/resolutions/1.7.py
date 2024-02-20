@@ -1,0 +1,9 @@
+T=P/2
+FEFy=(P*(c+a+d)-T*c)/(c+a)
+FEFx=(c+a)/(c+b)*FEFy
+By=P-FEFy
+Bx=-FEFx+T 
+VcC=By 
+MfC=(By)*c 
+VnC=Bx
+resposta(MfC,'kN*m')

@@ -1,0 +1,10 @@
+theta=np.deg2rad(thetad)
+FCB=P/sy.sin(theta)
+FCD=-P/sy.tan(theta)
+FDB=W
+FDE=-P/sy.tan(theta)
+Ex=(2*P+W)/(2*sy.tan(theta))
+Ax=-Ex
+FAB=(2*P+W)/(2*sy.sin(theta))
+FBE=-(1/sy.cos(theta)*((2*P+W)/(2*sy.tan(theta))-P/sy.tan(theta)))
+resposta(FBE,'kN')

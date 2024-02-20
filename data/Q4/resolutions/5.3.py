@@ -1,0 +1,13 @@
+DX=abs(a-f-e)
+DY=c
+DZ=b
+L=sy.sqrt(DX**2+DY**2+DZ**2)
+FCB=P*L/DZ
+FCBx=FCB*DX/L
+FRAx=-FCBx
+FCBy=FCB*DY/L
+FRAy=FCBy
+FCBx=FCB*DX/L
+FRAz=0
+MAz=FCBx*c-FCBy*(f+e)
+resposta(FRAz,'kN')

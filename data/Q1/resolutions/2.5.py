@@ -1,0 +1,9 @@
+theta1rad=np.radians(theta1)
+theta2rad=np.radians(theta2)
+theta3rad=np.radians(theta3)
+F1=modF1*vector(-sy.sin(theta1rad),sy.cos(theta1rad),0)
+F2=modF2*vector(sy.cos(theta3rad+theta2rad),sy.sin(theta3rad+theta2rad),0)
+F3=modF3*vector(sy.cos(theta3rad),sy.sin(theta3rad),0)
+F=F1+F2+F3
+alpha=sy.atan(F.dot(j)/F.dot(i))
+resposta(alpha,r'^{\circ}')

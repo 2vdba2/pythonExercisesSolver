@@ -1,0 +1,9 @@
+x=sy.symbols('x')
+F=w*2*a 
+FRBy=(P+F)/2 
+FRAy=P+F-FRBy 
+Vc1=FRAy-w*x
+Mf1=sy.integrate(Vc1,x)
+Vc2=Vc1.subs(x,a)-P-w*(x-a) 
+Mf2=Mf1.subs(x,a)+sy.integrate(Vc2,(x,a,x))
+resposta(Vc2.subs(x,a),'N')

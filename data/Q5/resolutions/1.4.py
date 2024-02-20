@@ -1,0 +1,9 @@
+theta=np.deg2rad(thetad)
+FBW=P/2
+FBWy=sy.sin(theta)*FBW
+FBWx=sy.cos(theta)*FBW
+RDx=-2*P-PBD/2-PABC-FBWy
+RAx=FBWx-RDx
+RDy=-RDx+PBD/2
+RAy=PBD+PABC+P+FBWy-RDy
+resposta(abs(RAy),'kN')

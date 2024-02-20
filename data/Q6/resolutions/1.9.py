@@ -1,0 +1,9 @@
+F=w*a
+FRAy=F
+MA=F*a/2+M 
+R=-w 
+T=FRAy 
+U=-w/2 
+V=FRAy 
+Z=-MA 
+resposta(T,'')

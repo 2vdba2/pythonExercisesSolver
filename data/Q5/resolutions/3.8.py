@@ -1,0 +1,10 @@
+FAF=2**0.5*P
+FAB=-P
+FCD=0
+FCB=-3*P-2*F
+FDE=2*P+F
+FEF=2*P+F
+FEB=0
+FBF=-2**0.5*(F+P)
+FDB=2**0.5*(F+P)
+resposta(FEB,'kN')

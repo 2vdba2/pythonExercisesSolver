@@ -1,0 +1,15 @@
+F1=k*c
+By=F1*(c/2)/c
+FRAy=F1-By 
+F2=w*a/2
+Bx=(By*c-F2*a/3)/a
+FRAx=-Bx 
+FRCy=By 
+FRCx=F2+Bx 
+VcD=FRAy-k*b 
+VnD=-FRAx 
+MfD=FRAy*b-k*b**2/2 
+VcE=FRCy 
+VnE=-FRCx 
+MfE=FRCy*b 
+resposta(VcE,'N')

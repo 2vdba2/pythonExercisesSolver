@@ -1,0 +1,7 @@
+psiRad=np.radians(psi)
+FAC=modFAC*vector(sy.cos(psiRad),-sy.sin(psiRad),0)
+theta=sy.asin(modFAC/modF*sy.sin(psiRad))
+thetaDeg=np.rad2deg(float(theta))
+#print(thetaDeg)
+modFAB=(modF*(-sy.cos(theta))-modFAC*sy.cos(psiRad))/(-1)
+resposta(modFAB,'N')

@@ -1,0 +1,5 @@
+alpha=np.radians(alphad)
+beta=np.radians(betad)
+modT1=F/(sy.cos(beta)+sy.sin(beta)/sy.tan(alpha))
+modT2=modT1*sy.sin(beta)/sy.sin(alpha)
+resposta(modT2,'N')
