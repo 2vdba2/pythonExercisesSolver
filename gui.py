@@ -6,7 +6,7 @@ from guiTools import *
 
 # Build first Layout
 layout=makeLayout()
-gvar.window = sg.Window("Mecanica Aplicada", layout,resizable=False).Finalize()
+gvar.window = sg.Window("pythonExercisesSolver", layout,resizable=False).Finalize()
 updateLayout()
 
 # Create an event loop

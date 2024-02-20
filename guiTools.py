@@ -93,7 +93,10 @@ def about():
 \n\
 Todas as imagens das questões foram retiradas do material de autoria de Rafael Antônio Comparsi Laranja  da disciplina de Mecanica Aplicada da UFRGS que estava licenciado com uma Licença Creative Commons - Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional (CC BY-NC-SA 4.0). \n\
 \n\
-Para saber mais sobre os tipos de licença, visite: https://creativecommons.org/licenses/by-nc-sa/4.0/"
+Para saber mais sobre os tipos de licença, visite: https://creativecommons.org/licenses/by-nc-sa/4.0/\n\
+\n\
+Git Repository: https://github.com/2vdba2/pythonExercisesSolver\
+"
 
 	sg.popup(text, title='Sobre')
 
