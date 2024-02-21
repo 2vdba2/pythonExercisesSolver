@@ -1,0 +1,5 @@
+pip install psgcompiler
+# no windows, entrar na pasta onde esta instalado o psg compiler
+#como descobrir? pip uninstall pyinstaller, nao desisnstala, usa isso so para pegar o caminho
+# vai la no caminho, cola o arquivo que tu quer compilar, 
+# executa psgcompiler e segue o baile ;)

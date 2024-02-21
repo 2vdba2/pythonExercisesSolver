@@ -1,0 +1,16 @@
+sudo dpkg --add-architecture i386
+sudo mkdir -pm755 /etc/apt/keyrings
+sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+sudo apt update && sudo apt install --install-recommends winehq-stable
+
+#install python
+# Donwload python and
+wine python-3.12.2-amd64.exe
+
+#Configure Wine
+wine C:/Python312/python.exe -m pip install --upgrade pip
+wine C:/Python312/python.exe -m pip install numpy sympy natsort pyinstaller pysimplegui
+
+#build
+wine C:/Python312/Scripts/pyinstaller.exe --onefile --windowed --workpath "Z:$(pwd)/psc_gui_tmp" --distpath "Z:$(pwd)" --specpath "Z:$(pwd)" "Z:$(pwd)/gui.py"
