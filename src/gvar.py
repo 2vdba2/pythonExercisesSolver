@@ -9,6 +9,7 @@ values=[]
 
 #Questions
 questao=0
+print(os.listdir('data'))
 questionDirList=natsorted(os.listdir('data'))
 questionDir=questionDirList[0]
 exerciseIDList=os.listdir('data/'+questionDir+'/images/')
