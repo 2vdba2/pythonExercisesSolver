@@ -4,4 +4,4 @@ This program was motivated to solve engineering exercises that have aleatory inp
 
 To run on windows, you just use exercisesSolver.exe
 
-The main python file is gui.py
+The main python file is exercisesSolver.py
