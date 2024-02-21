@@ -30,3 +30,6 @@ outputVarNames=[]
 outputVarValues=[]
 outputColumnMaxSize=50
 outFileName=''
+
+#get an image for empty layout
+defaultImage='data/'+questionDir+'/images/'+exerciseIDList[questao]+'.png'

@@ -35,7 +35,7 @@ def makeLayout():
 	top = 	[[lst],\
 			[sg.Text("exerciseIDList[gvar.questao]",key="exerciseIDList[gvar.questao]")],\
 			[sg.Button("Anterior"),sg.Button("Proximo")],\
-			[sg.Image("src/black.png",key="imageEnunciado")]]
+			[sg.Image(gvar.defaultImage,key="imageEnunciado")]]
 
 	#-------------
 	# Build Layout
