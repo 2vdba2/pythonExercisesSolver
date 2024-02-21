@@ -1,4 +1,3 @@
-import pyperclip
 import PySimpleGUI as sg
 from processFilesTools import *
 from resolutionTools import *
